@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><title>Rhytmic Insanity</title></head>
+<body>
+
+<video id="myVideo" width="640" height="360" controls>
+  <source src="RI.mp4" type="video/mp4">
+  your browser dont support video lol
+</video>
+
+<script>
+  const vid = document.getElementById('myVideo');
+  vid.play().catch(e => console.log('video play failed:', e));
+</script>
+
+</body>
+</html>
